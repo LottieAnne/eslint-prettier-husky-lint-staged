@@ -18,7 +18,7 @@
     "eject": "react-scripts eject",
     "prepare": "husky install",
     "format": "prettier --write --ignore-path .gitignore './**/*.{js,jsx,ts,tsx,json,css}'",
-    "lint-staged": "lint-staged"
+    "lint": "eslint . --ext ts --ext tsx --ext js"
   },
   "browserslist": {
     "production": [
