@@ -1,5 +1,8 @@
 {
-  "eslintConfig": {
-    "extends": ["react-app", "react-app/jest"]
+  "extends": ["react-app", "react-app/jest", "prettier"],
+  "plugins": ["unused-imports"],
+  "rules": {
+    "@typescript-eslint/no-unused-vars": "off",
+    "unused-imports/no-unused-imports-ts": "warn"
   }
 }
